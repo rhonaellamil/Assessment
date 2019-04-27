@@ -1,0 +1,258 @@
+body {
+	text-align: center;
+	padding: 0px;
+	font-family: High Tower Text;
+	background-color: white;
+}
+a{
+	text-decoration:none;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+	padding: 20px 10px 15px 50px;
+	margin:	0px;
+	text-align: center;
+	margin-top: 0;
+}
+
+
+img {
+	float: left;
+	height: 80px;
+	width: auto;
+	margin: auto;
+	padding:0px 70px 15px 0px;
+}
+
+li {
+	padding: 10px;
+	background: white;
+	text-align: center;
+	color: #c98b15;
+	font-family: Century Gothic;
+	list-style: none;
+	font-size: 15px;
+}
+
+li:hover {
+	background-color: white;
+	color: black;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.showcase {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/hotel.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 10px;
+}
+
+.title {
+	color: white;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.pa1 {
+	font-size: 15px;
+	font-family: Century Gothic;
+}
+
+.sentence {
+	height: 30vh;
+	background-color: white;
+	padding-top: 30px;
+	color: #ba9348;
+}
+
+.head1 {
+	margin-top: 50px;
+}
+
+.imageandtext {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 4px;
+}
+
+.left-image {
+	background-image: url(../images/lobby1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	padding: 87px;
+	margin-top: 81px;
+}
+.right-text{
+	background-color: #e9e9e9;
+	height: 50vh;
+	padding: 87px;
+	margin-top: 81px;
+	color: #ba9348;
+}
+
+.p1 {
+	color: black;
+	font-size: 15px;
+	font-family: Century Gothic;
+
+}
+
+.exclusives {
+	height: 20vh;
+	margin-top: 70px;
+}
+
+.p2 {
+	color: black;
+	font-size: 15px;
+	font-family: Century Gothic;
+}
+
+.container {
+	width: 100vw;
+	height: 80vh;
+	background-color: white;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.c1 {
+ height: 400px;
+ width: 260px;
+ background-color:#e9e9e9;
+ float: left;
+ margin-left: 50px;
+}
+
+.c2 {
+	height: 400px;
+  width: 260px;
+  background-color:#e9e9e9;
+  float: left;
+	margin-left: 47px;
+}
+
+.c3 {
+	height: 400px;
+  width: 260px;
+  background-color: #e9e9e9;
+  float: right;
+	margin-right: 100px;
+}
+
+.img1 {
+	height: 170px;
+	width: 260px;
+}
+
+.p3 {
+	color: black;
+	font-size: 14px;
+	font-family: Century Gothic;
+	padding: 0 10px 0 10px;
+}
+
+.h4 {
+	padding: 0 5px 0 5px;
+}
+
+.btn {
+  font-family: High Tower Text;
+  background-color: #a78440;
+  padding: 15px 25px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: white;
+  margin-top: 37px;
+}
+
+.btn:hover {
+	background-color: #573c0a;
+}
+
+.btn1 {
+  font-family: High Tower Text;
+  background-color: #a78440;
+  padding: 15px 25px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: white;
+  margin-top: 37px;
+}
+
+.btn1:hover {
+	background-color: #573c0a;
+}
+
+.btn2 {
+  font-family: High Tower Text;
+  background-color: #a78440;
+  padding: 15px 25px;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.btn2:hover {
+	background-color: #573c0a;
+}
+.end {
+	height: 40vh;
+	background-color: #e9e9e9;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding:10px 20px 15px 10px;
+}
+
+.ft {
+	background-color: #e9e9e9;
+}
+.ft1 {
+	background-color: #e9e9e9;
+}
+.ft2
+{background-color: #e9e9e9;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 80%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
